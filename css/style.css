@@ -1,0 +1,101 @@
+body{
+background-color:  #24353f;
+font-family: 'Titillium Web', sans-serif;
+}
+body a{
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+}
+.item1 , .item2{
+    width:700px;
+    height: 350px;
+    background-color:  #24353f;
+    box-shadow: 2px 2px 20px 2px rgb(0, 0, 0);
+
+}
+.item1{
+    margin-top: 7%;
+    position: relative;
+    left: 27%;
+    overflow: hidden;
+}
+.head{
+    margin-left: 30%;
+    /* margin-top: 2%; */
+    color: #17a2b8;
+}
+.inner1 , .inner2 {
+width: 90%;
+height: 10%;
+margin-left: 5%;
+margin-top: 2%;
+padding: 1%;
+background: transparent;
+}
+.inner2{
+    color: #17a2b8;
+    border-color: #17a2b8;
+    border-width: 1px;
+}
+.inner2:hover{
+background-color:#17a2b8 ;
+color: white;
+}
+.sign{
+    color: white;
+    font-size: medium;
+    margin-left: 30%;
+    margin-top: 3%;
+}
+.button{
+color: white;
+}
+
+
+.item2{
+position: absolute;
+left: 100%;
+top: 0;
+bottom: 0;
+
+}
+
+.smart{
+    background-color: #24353f;
+    /* display: none; */
+}
+.nav{
+    height: 8%;
+    background-color: #24353f;
+    box-shadow: 2px 2px 20px 2px rgb(0, 0, 0);
+}
+.nav-left{
+    width: 50%;
+}
+.nav-right{
+    width: 50%;
+    border-color: bisque;
+}
+.nav-right button{
+    padding: 10px;
+    color: rgb(205, 202, 202);
+    border-color:#ffc107 ;
+    border-radius: 5%;
+}
+.nav-right button:hover{
+    background-color: #ffc107;
+}
+.welcomes{
+    width: 50%;
+    height: 20%;
+    background-color: #24353f;
+    box-shadow: 2px 2px 20px 2px rgb(0, 0, 0);
+    color: #17a2b8;;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+#welcome{
+    color: white;
+}
